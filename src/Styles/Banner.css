@@ -1,0 +1,44 @@
+.banner-Container {
+  background: url("../Asset/Banner/Group\ 43.png");
+  width: 100%;
+  height: 90Vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-attachment: scroll;
+}
+
+.banner-content {
+  padding: 5.3rem 0 0 8.12rem;
+}
+
+.banner-main {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 6.5 rem;
+  color: #FFFFFF;
+}
+
+.banner-sub {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #FFFFFF;
+  margin: 1.68rem 0 3.62rem 0;
+}
+
+.banner-button {
+  background: #001858;
+  padding: 1.5rem 3.12rem;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.31 rem;
+  color: #FFFFFF;
+}

@@ -1,0 +1,63 @@
+.contest-container {
+  margin-top: 7.7rem;
+  margin-bottom: 2rem;
+}
+
+.contest-sub {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.31rem;
+  text-align: center;
+  color: #81BAE3;
+}
+
+.contest-main {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #040451;
+  margin: .31rem 0 2.37rem 0
+}
+.input-container {
+  position: relative;
+}
+.image-positon {
+  position: absolute;
+  top: 35%;
+  left: 4%;
+}
+.input-field {
+  width: 652px;
+  padding: 1.56rem 5rem;
+  background: #f582ae2f;
+}
+.input-field:focus {
+  outline: none;
+}
+.input-field::placeholder {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  text-transform: lowercase;
+  color: #001858;
+}
+
+.search-button {
+  background: #F582AE;
+  padding: 1.5rem 3.87rem;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.31rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
