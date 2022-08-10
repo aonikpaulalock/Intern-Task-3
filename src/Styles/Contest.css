@@ -1,6 +1,6 @@
 .contest-container {
-  margin-top: 7.7rem;
-  margin-bottom: 2rem;
+  width: 88%;
+  margin: 7.7rem auto 2rem auto;
 }
 
 .contest-sub {
@@ -23,22 +23,27 @@
   color: #040451;
   margin: .31rem 0 2.37rem 0
 }
+
 .input-container {
   position: relative;
 }
+
 .image-positon {
   position: absolute;
   top: 35%;
   left: 4%;
 }
+
 .input-field {
   width: 652px;
   padding: 1.56rem 5rem;
   background: #f582ae2f;
 }
+
 .input-field:focus {
   outline: none;
 }
+
 .input-field::placeholder {
   font-family: 'IBM Plex Sans';
   font-style: normal;
@@ -60,4 +65,36 @@
   text-align: center;
   text-transform: capitalize;
   color: #FFFFFF;
+}
+
+.contest-button-container {
+  margin: 4.25rem .5rem;
+}
+
+.all-button {
+  border: 1px solid #172C66;
+  opacity: 0.4;
+  padding: 0.93rem 1.87rem;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.31rem;
+  text-align: center;
+  color: #172C66;
+  margin-right: 2.68rem;
+}
+
+.active-class {
+  padding: 0.93rem 1.87rem;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.31rem;
+  margin-right: 2.68rem;
+  background: #F582AE;
+  opacity: 1;
+  border: none;
+  color: #FFFFFF !important;
 }

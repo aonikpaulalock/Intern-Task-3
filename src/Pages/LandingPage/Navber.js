@@ -3,7 +3,8 @@ import { Transition } from "@headlessui/react";
 import logo from "../../Asset/Header/LOGO.png"
 import user from "../../Asset/Header/Ellipse 1.png"
 import notification from "../../Asset/Header/Notification.svg"
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import "../../Styles/Navber.css"
 const Navber = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -20,11 +21,11 @@ const Navber = () => {
                 />
               </div>
               <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-4">
-                  <Link to="" class="py-4 px-2 text-[#001858] font-medium text-base font-[Poppins]">Home</Link>
-                  <Link to="" class="py-4 px-2 text-[#596EA8] font-normal text-base font-[Poppins]">Services</Link>
-                  <Link to="" class="py-4 px-2 text-[#596EA8] font-normal text-base font-[Poppins]">About</Link>
-                  <Link to="" class="py-4 px-2 text-[#596EA8] font-normal text-base font-[Poppins]">Contact Us</Link>
+                <div className="ml-10 flex items-baseline space-x-4 link-items">
+                  <NavLink to="/" class="anchor-link">Home</NavLink>
+                  <NavLink to="/services" class="anchor-link">Services</NavLink>
+                  <NavLink to="/about" class="anchor-link">About</NavLink>
+                  <NavLink to="/contact" class="anchor-link">Contact Us</NavLink>
                 </div>
               </div>
               <div class="hidden md:flex items-center space-x-5 ">
@@ -94,40 +95,40 @@ const Navber = () => {
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <Link
+                <NavLink
                   to="#"
                   className="text-[#001858]  font-[Poppins] block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Dashboard
-                </Link>
+                </NavLink>
 
-                <Link
+                <NavLink
                   to="#"
                   className="text-[#001858]  font-[Poppins] block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Team
-                </Link>
+                </NavLink>
 
-                <Link
+                <NavLink
                   to="#"
                   className="text-[#001858]  font-[Poppins] block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Projects
-                </Link>
+                </NavLink>
 
-                <Link
+                <NavLink
                   to="#"
                   className="text-[#001858]  font-[Poppins] block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Calendar
-                </Link>
+                </NavLink>
 
-                <Link
+                <NavLink
                   to="#"
                   className="text-[#001858]  font-[Poppins] block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Reports
-                </Link>
+                </NavLink>
               </div>
             </div>
           )}

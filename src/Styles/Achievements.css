@@ -1,0 +1,87 @@
+.achievements-container {
+  width: 88%;
+  margin: 6.5rem auto;
+  display: flex;
+}
+
+.achievements-content {
+  flex: 1;
+  margin-right: 2.62rem;
+  margin-top: 1.7rem;
+
+}
+
+.achievements-history {
+  flex: 3;
+  background: #001858;
+  padding: 6rem 1rem;
+}
+
+.left-achievements-title {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #81BAE3;
+}
+
+.left-achievements-maintitle {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.81rem;
+  color: #001858;
+  margin: .8rem 0 2.5rem 0;
+}
+
+.learn-more-button {
+  background: #F582AE;
+  border: 0;
+  outline: 0;
+  padding: .75rem 1.75rem;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.31rem;
+  color: #FFFFFF;
+}
+
+.achievement-card {
+  padding-left: 1.26rem;
+  padding-left: 1,26rem;
+  position: relative;
+}
+/* .achievement-card::after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  width: 5px;
+  height: 52px;
+  background-color: #596EA8;
+}
+.achievement-card:first-child(1) {
+ 
+} */
+
+.achievement-title {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.81rem;
+  text-align: center;
+  color: #FEF6E4;
+}
+
+.achievement-subtitle {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 2.81rem;
+  text-align: center;
+  color: #FEF6E4;
+}

@@ -1,0 +1,14 @@
+.link-items  a{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #596EA8;
+  padding-right: 1.5rem;
+}
+
+.active {
+  color: #001858 !important;
+  font-weight: 600 !important;
+}
