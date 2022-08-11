@@ -7,7 +7,7 @@ const All = () => {
     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
       {
         contests.slice(0, 6).map(contest =>
-          <div key={contest.id} className="card-container">
+          <div key={contest._id} className="card-container">
             <div class="max-w-sm overflow-hidden">
               <div class="">
                 <div className="flex justify-between items-center">

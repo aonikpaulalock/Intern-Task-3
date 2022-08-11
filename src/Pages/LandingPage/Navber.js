@@ -22,7 +22,7 @@ const Navber = () => {
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4 link-items">
-                  <NavLink to="/" class="anchor-link">Home</NavLink>
+                  <NavLink to="/home" class="anchor-link">Home</NavLink>
                   <NavLink to="/services" class="anchor-link">Services</NavLink>
                   <NavLink to="/about" class="anchor-link">About</NavLink>
                   <NavLink to="/contact" class="anchor-link">Contact Us</NavLink>
