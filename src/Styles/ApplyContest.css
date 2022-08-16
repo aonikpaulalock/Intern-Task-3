@@ -1,0 +1,11 @@
+.image-center {
+  width: 63px;
+  height: 63px;
+  background: #ffe4ee;
+}
+
+.image-center img {
+  display: block;
+  transform: translate(75%,75%);
+  text-align: center;
+}
