@@ -1,0 +1,21 @@
+.subscribe-container {
+  background-color: #001858;
+  padding: 80px;
+  position: relative;
+}
+.image-1 {
+  position: absolute;
+  top: -25%;
+  left: -2%;
+}
+.image-2 {
+  position: absolute;
+  bottom: -10%;
+  right: -2%;
+}
+.subscribe-container input {
+  color: #FFFFFF;
+}
+.subscribe-container input:focus {
+    outline: none;
+}

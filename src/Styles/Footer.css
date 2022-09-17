@@ -1,0 +1,30 @@
+.footer-container {
+  background: #F9F9F9;
+  padding: 50px;
+}
+.icon-facebook,.icon-twitter,.icon-linkedin,.icon-google,.icon-youtube {
+  font-size: 20px;
+  margin-left: 27px;
+  color: rgb(177, 177, 177);
+  cursor: pointer;
+}
+.icon-facebook:hover {
+  color: #4267B2;
+  transition: all .1s linear;
+}
+.icon-twitter:hover {
+  color:  #1DA1F2;
+  transition: all .1s linear;
+}
+.icon-linkedin:hover {
+  color: #0e76a8;
+  transition: all .1s linear;
+}
+.icon-google:hover {
+  color: 	 #4285F4;
+  transition: all .1s linear;
+}
+.icon-youtube:hover {
+  color: 	#FF0000;
+  transition: all .1s linear;
+}

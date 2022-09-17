@@ -1,0 +1,62 @@
+[ 
+  {
+  "img":"https://i.ibb.co/2t1FYq5/blogs1.png",
+   "date": "new Date()",
+   "views":"5k",
+   "share":"900+",
+   "useImg":"https://i.ibb.co/s6WY4ZL/User1.png",
+   "userName":"Aonik Kumar",
+   "userDegi":"Senior Photographer",
+   "content":"Pretium sapien, egestas tempor, placerat nibh. Egestas gravida quam vitae nulla pharetra."
+},
+  {  
+  "img":"https://i.ibb.co/r4M8dWq/blogs2.png",
+   "date": "10 Jan 2021",
+   "views":"5k",
+   "share":"900+",
+   "useImg":"https://i.ibb.co/s6WY4ZL/User1.png",
+   "userName":"Aonik Kumar",
+   "userDegi":"Senior Photographer",
+   "content":"Pretium sapien, egestas tempor, placerat nibh. Egestas gravida quam vitae nulla pharetra."
+},
+  {
+  "img":"https://i.ibb.co/jDRcdPd/bolgs.png",
+   "date": "10 Jan 2021",
+   "views":"5k",
+   "share":"900+",
+   "useImg":"https://i.ibb.co/s6WY4ZL/User1.png",
+   "userName":"Aonik Kumar",
+   "userDegi":"Senior Photographer",
+   "content":"Pretium sapien, egestas tempor, placerat nibh. Egestas gravida quam vitae nulla pharetra."
+},
+  {
+  "img":"https://i.ibb.co/2t1FYq5/blogs1.png",
+   "date": "10 Jan 2021",
+   "views":"5k",
+   "share":"900+",
+   "useImg":"https://i.ibb.co/s6WY4ZL/User1.png",
+   "userName":"Aonik Kumar",
+   "userDegi":"Senior Photographer",
+   "content":"Pretium sapien, egestas tempor, placerat nibh. Egestas gravida quam vitae nulla pharetra."
+},
+  {
+  "img":"https://i.ibb.co/r4M8dWq/blogs2.png",
+   "date": "10 Jan 2021",
+   "views":"5k",
+   "share":"900+",
+   "useImg":"https://i.ibb.co/s6WY4ZL/User1.png",
+   "userName":"Aonik Kumar",
+   "userDegi":"Senior Photographer",
+   "content":"Pretium sapien, egestas tempor, placerat nibh. Egestas gravida quam vitae nulla pharetra."
+},
+  {
+  "img":"https://i.ibb.co/jDRcdPd/bolgs.png",
+   "date": "10 Jan 2021",
+   "views":"5k",
+   "share":"900+",
+   "useImg":"https://i.ibb.co/s6WY4ZL/User1.png",
+   "userName":"Aonik Kumar",
+   "userDegi":"Senior Photographer",
+   "content":"Pretium sapien, egestas tempor, placerat nibh. Egestas gravida quam vitae nulla pharetra."
+}
+]

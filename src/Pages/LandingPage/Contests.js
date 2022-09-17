@@ -20,9 +20,7 @@ const Contests = () => {
             </button>
           </div>
         </div>
-
         <ContestCardPage />
-
       </div>
     </div>
   );
